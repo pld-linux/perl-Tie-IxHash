@@ -6,7 +6,8 @@ Summary(pl):	Tie::IxHash - uporz±dkowane tablica asocjacyjne dla Perla
 Name:		perl-Tie-IxHash
 Version:	1.21
 Release:	11
-License:	GPL
+# same as Perl
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	567ddc13081596b52cfe3d82218cb264
