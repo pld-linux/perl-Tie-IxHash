@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	IxHash
+%define		pdir	Tie
+%define		pnam	IxHash
 Summary:	Tie::IxHash - ordered associative arrays for Perl
 Summary(pl):	Tie::IxHash - uporz±dkowane tablica asocjacyjne dla Perla
 Name:		perl-Tie-IxHash
