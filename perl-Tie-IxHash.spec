@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	IxHash
-Summary:	Tie-IxHash perl module
-Summary(pl):	Modu³ perla Tie-IxHash
+Summary:	Tie::IxHash perl module
+Summary(pl):	Modu³ perla Tie::IxHash
 Name:		perl-Tie-IxHash
 Version:	1.21
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie-IxHash perl module.
+Tie::IxHash perl module.
 
 %description -l pl
-Modu³ perla Tie-IxHash.
+Modu³ perla Tie::IxHash.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
