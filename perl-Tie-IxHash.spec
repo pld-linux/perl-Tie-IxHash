@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	IxHash
-Summary:	Tie::IxHash perl module
-Summary(pl):	Modu³ perla Tie::IxHash
+Summary:	Tie::IxHash - ordered associative arrays for Perl
 Name:		perl-Tie-IxHash
 Version:	1.21
 Release:	8
@@ -15,10 +14,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie::IxHash perl module.
-
-%description -l pl
-Modu³ perla Tie::IxHash.
+This Perl module implements Perl hashes that preserve the order in which
+the hash elements were added.  The order is not affected when values
+corresponding to existing keys in the IxHash are changed.  The elements
+can also be set to any arbitrary supplied order.  The familiar perl
+array operations can also be performed on the IxHash.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
