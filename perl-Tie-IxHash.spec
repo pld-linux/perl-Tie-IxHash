@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	IxHash
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie-IxHash perl module
 Summary(pl):	Modu³ perla Tie-IxHash
 Name:		perl-Tie-IxHash
 Version:	1.21
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Tie-IxHash perl module.
 Modu³ perla Tie-IxHash.
 
 %prep
-%setup -q -n Tie-IxHash-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
