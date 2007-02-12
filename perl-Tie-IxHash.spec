@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	IxHash
 Summary:	Tie::IxHash - ordered associative arrays for Perl
-Summary(pl):	Tie::IxHash - uporz±dkowane tablica asocjacyjne dla Perla
+Summary(pl.UTF-8):   Tie::IxHash - uporzÄ…dkowane tablica asocjacyjne dla Perla
 Name:		perl-Tie-IxHash
 Version:	1.21
 Release:	11
@@ -27,12 +27,12 @@ values corresponding to existing keys in the IxHash are changed. The
 elements can also be set to any arbitrary supplied order. The familiar
 perl array operations can also be performed on the IxHash.
 
-%description -l pl
-Ten modu³ Perla jest implementacj± haszy, które zachowuj± kolejno¶æ, w
-jakiej elementy by³y dodawane. Kolejno¶æ nie ulega zmianie kiedy
-modyfikowane s± warto¶ci odpowiadaj±ce istniej±cym kluczom w obiekcie
-IxHash. Elementy mog± byæ tak¿e ustawiane w zadanej kolejno¶ci. Znane
-operacje na tablicach perlowych mog± byæ tak¿e wykonywane na typie
+%description -l pl.UTF-8
+Ten moduÅ‚ Perla jest implementacjÄ… haszy, ktÃ³re zachowujÄ… kolejnoÅ›Ä‡, w
+jakiej elementy byÅ‚y dodawane. KolejnoÅ›Ä‡ nie ulega zmianie kiedy
+modyfikowane sÄ… wartoÅ›ci odpowiadajÄ…ce istniejÄ…cym kluczom w obiekcie
+IxHash. Elementy mogÄ… byÄ‡ takÅ¼e ustawiane w zadanej kolejnoÅ›ci. Znane
+operacje na tablicach perlowych mogÄ… byÄ‡ takÅ¼e wykonywane na typie
 IxHash.
 
 %prep
