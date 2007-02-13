@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	IxHash
 Summary:	Tie::IxHash - ordered associative arrays for Perl
-Summary(pl.UTF-8):   Tie::IxHash - uporządkowane tablica asocjacyjne dla Perla
+Summary(pl.UTF-8):	Tie::IxHash - uporządkowane tablica asocjacyjne dla Perla
 Name:		perl-Tie-IxHash
 Version:	1.21
 Release:	11
