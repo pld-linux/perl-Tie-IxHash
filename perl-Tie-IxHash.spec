@@ -6,15 +6,16 @@
 %define		pdir	Tie
 %define		pnam	IxHash
 Summary:	Tie::IxHash - ordered associative arrays for Perl
-Summary(pl.UTF-8):	Tie::IxHash - uporządkowane tablica asocjacyjne dla Perla
+Summary(pl.UTF-8):	Tie::IxHash - uporządkowane tablice asocjacyjne dla Perla
 Name:		perl-Tie-IxHash
-Version:	1.21
-Release:	12
+Version:	1.22
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	567ddc13081596b52cfe3d82218cb264
+Source0:	http://www.cpan.org/modules/by-authors/id/C/CH/CHORNY/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	aae2e62df7e016fd3e8fdaaea71b0b41
+URL:		http://search.cpan.org/dist/Tie-IxHash/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -58,4 +59,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/Tie/IxHash.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/Tie::IxHash.3pm*
