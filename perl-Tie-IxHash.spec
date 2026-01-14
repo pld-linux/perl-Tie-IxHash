@@ -8,7 +8,7 @@ Summary:	Tie::IxHash - ordered associative arrays for Perl
 Summary(pl.UTF-8):	Tie::IxHash - uporządkowane tablice asocjacyjne dla Perla
 Name:		perl-Tie-IxHash
 Version:	1.23
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
